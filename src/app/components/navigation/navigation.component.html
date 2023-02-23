@@ -1,0 +1,47 @@
+<div class="navbar navbar-light bg-light sticky-top navbar-expand-md">
+  <div class="container">
+    <a class="navbar-brand" routerLink="/"> Tasteastic </a>
+    <button
+      class="navbar-toggler"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasNav"
+      aria-controls="offcanvasNav"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div
+      class="offcanvas offcanvas-end text-bg-light text-dark"
+      id="offcanvasNav"
+      aria-labelledby="offcanvasNavLabel"
+    >
+      <div class="offcanvas-body justify-content-between">
+        <div
+          class="nav flex-md-row flex-column flex-nowrap align-items-md-center align-items-center"
+        >
+          <!--We will have to delete the landing link later + reroute the links so dietapp.com will lead to the landing-->
+          <a class="nav-link w-100 text-center" routerLink="/landing"
+            ><span>Landing</span></a
+          >
+          <a class="nav-link w-100 text-center" routerLink="/breakfast"
+            ><span>Breakfast</span></a
+          >
+          <a class="nav-link w-100 text-center disabled" routerLink="/lunch"
+            ><span>Lunch</span></a
+          >
+          <a class="nav-link w-100 text-center disabled" routerLink="/dinner"
+            ><span>Dinner</span></a
+          >
+          <a class="nav-link w-100 text-center disabled" routerLink="/dessert"
+            ><span>Dessert</span></a
+          >
+        </div>
+        <div
+          class="btn btn-outline-dark col-md-2 col-xl-1 col-12 mt-3 mt-md-0"
+          routerLink="/login"
+        >
+          Log in
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

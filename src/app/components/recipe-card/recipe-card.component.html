@@ -1,0 +1,18 @@
+<div class="col mb-5">
+  <div class="card" style="height: auto">
+    <a href="about:blank" target="_blank">
+      <img class="card-img-top" [src]="recipe.image" alt="..." /> </a
+    ><!-- image -->
+
+    <!-- Product details-->
+    <div class="card-body p-4" style="text-decoration: none">
+      <div class="text-center">
+        <!-- Product name-->
+        <h5 class="fw-bolder">{{ recipe.name }}</h5>
+        <p style="font-size: 10px">{{ recipe.rating }} Ratings</p>
+        <p>Time: {{ recipe.time }} min</p>
+        <p>Difficulty: {{ recipe.difficulty }}</p>
+      </div>
+    </div>
+  </div>
+</div>
