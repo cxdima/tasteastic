@@ -16,13 +16,41 @@
 }
 
 .page-header{
-  background-color: #fffff3;
+  background-color: #fffffe;
+}
+
+p{
+  color: #2d334a !important;
 }
 
 h1{
   color: #272343 !important;
 }
 
-p{
-  color: #2d334a !important;
+.card{
+  background-color: rgb(255, 255, 254);
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+  border: none;
+  padding: 3rem;
+  height: 100%;
+}
+
+.card-title{
+  text-align: left;
+  color: #272343;
+}
+.card-text {
+  text-align: left;
+  color: #2d334a;
+}
+
+.card-body{
+  padding: 0;
+  padding-top: 8px;
+}
+.section-header{
+  display: flex;
+  flex-direction: column;
 }
